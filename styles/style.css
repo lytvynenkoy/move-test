@@ -255,6 +255,8 @@ h1 {
 .faq__icon {
     width: 24px;
     height: 24px;
+    min-width: 24px;
+    min-height: 24px;
     border: 1.2px solid #5DBDFB;
     border-radius: 50%;
     position: relative;
@@ -381,6 +383,7 @@ h4 {
         height: 455px;
         margin: 0 0 0 auto;
     }
+
 }
 
 @media (max-width: 950px) {
@@ -480,6 +483,10 @@ h4 {
     .logo svg {
         width: 250px;
         height: 65px;
+    }
+
+    .blog__grid {
+        grid-template-columns: repeat(1, auto);
     }
 }
 
